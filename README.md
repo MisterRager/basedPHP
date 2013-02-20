@@ -1,8 +1,8 @@
 basedPHP
 ========
-Author: Alan Rager
-License: If you make money off this code, I'd like some.
-Jan 22, 2013
+Author: Alan Rager  
+License: If you make money off this code, I'd like some.  
+Jan 22, 2013  
 
 Light PHP DataMapper ORM
 
