@@ -46,7 +46,7 @@ abstract class PDOMapper {
 			throw $e;
 		}
 	}
-	
+
 	public function getFields()
 	{
 		return $this->fields; 
@@ -168,7 +168,7 @@ abstract class PDOMapper {
 		$table = $this->getTableName();
 		$model = $this->getModelName();
 
-		$sql = "REPLACE INTO `$table` ";
+		$sql = "INSERT IGNORE INTO `$table` ";
 		$fields = false;
 
 		$value_fillers = array();
